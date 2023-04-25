@@ -1,0 +1,97 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.item-container {
+  margin: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.name-icon {
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  margin-right: 5px;
+}
+.row-name-time {
+  display: flex;
+  align-items: center;
+}
+.name-user {
+  color: #334155;
+  margin: 0px 5px;
+}
+.time-stamp {
+  margin: 0px 10px;
+  font-weight: bold;
+  color: #94a3b8;
+  font-size: 10px;
+}
+.cmt {
+  margin-left: 45px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #64748b;
+}
+.row-like-delete {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pic-like {
+  display: flex;
+  align-items: center;
+}
+.like-btn {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+.logo {
+  margin-right: 10px;
+  height: 20px;
+}
+.liked-text {
+  color: #7e858e;
+  font-size: 14px;
+  font-weight: bold;
+}
+.blue-txt {
+  color: #0b69ff;
+}

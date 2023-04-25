@@ -1,0 +1,102 @@
+/* Write your CSS here */
+.main-bg {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 5vw;
+
+  display: flex;
+  flex-direction: column;
+}
+.add-comment-container {
+  color: #475569;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  border: none;
+  border-bottom: solid 2px #cbd2d9;
+
+  width: 100%;
+}
+.input-ele {
+  margin: 5px 0px;
+  font-weight: 500;
+  color: #000000;
+  padding: 10px;
+  width: 100%;
+  border: solid 2px #cbd2d9;
+  outline: none;
+}
+.img-comments {
+  height: 300px;
+  width: 300px;
+  margin: 2vh 5vw;
+  order: 1;
+}
+.add-comment {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.btn {
+  cursor: pointer;
+  padding: 5px 15px;
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+}
+.heading {
+  color: #1e293b;
+  font-weight: bold;
+}
+
+@media all and (max-width: 767px) {
+  .add-comment-container {
+    height: 80%;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px;
+  }
+  .img-comments {
+    width: 70vw;
+    order: 0;
+    margin-bottom: 10px;
+  }
+  .add-comment {
+    width: 100%;
+    justify-content: center;
+  }
+  .input-ele {
+    margin-bottom: 10px;
+  }
+  .btn {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.comments-count {
+  font-weight: bold;
+  display: flex;
+  color: #475569;
+  align-items: center;
+}
+.count {
+  padding: 5px 15px;
+  border-radius: 1px;
+  background-color: #0284c7;
+  margin-right: 8px;
+  color: #fff;
+}
+.items-container {
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
